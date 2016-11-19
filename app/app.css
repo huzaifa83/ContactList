@@ -1,0 +1,42 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li + li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.divider{
+	width: 5px;
+	height: auto;
+	display: inline-block;
+}
+
+.row
+{
+  background-image: url("https://static1.squarespace.com/static/5656e7dbe4b0060cdb579637/t/56a0a3e4fb36b1be1920b1d3/1453368305515/Growing+our+people+watermark.png?format=1500w");
+  background-size: cover;
+  height: 590px;
+  width: 1375px;
+margin-left: -115px;
+margin-top: -20px;
+}
+

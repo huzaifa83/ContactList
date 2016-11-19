@@ -1,0 +1,16 @@
+We will create a full CRUD(create, read, update and delete) application using AngularJS and Firebase cloud database.
+
+Users can add, edit, and delete contacts using the Firebase API
+
+Sections:
+1) Project Intro
+2) Angular Seed & Firebase Setup
+3) Read and Create Contacts
+4) Edit and Display Single Contacts
+
+Learnings:
+a) Use the Angular Boiler plate 
+b) Setup and implement a cloud database (Firebase)
+c) Use the Firebase API to perform CRUD
+d) Use the $http service to fetch data from Firebase
+ 
