@@ -52,6 +52,17 @@
   <script src="app/bower_components/angular/angular.js"></script>
   <script src="app/bower_components/angular-route/angular-route.js"></script>
   <script src="app/bower_components/firebase/firebase.js"></script>
+  <script type="app/text/javascript">
+    
+    var config = {
+      apiKey: "AIzaSyCmlJBUkTbaVpaT0VHT82gjFGF6uywR3W0",
+      authDomain: "mycontacts-5542e.firebaseapp.com",
+      databaseURL: "https://mycontacts-5542e.firebaseio.com",
+      storageBucket: "mycontacts-5542e.appspot.com",
+      messagingSenderId: "933141649619"
+     };
+    var fb = firebase.initializeApp(config);
+  </script>
   <script src="app/bower_components/angularfire/dist/angularfire.js"></script>
   <script src="app/app.js"></script>
   
@@ -59,17 +70,7 @@
   <script src="app/components/version/version-directive.js"></script>
   <script src="app/components/version/interpolate-filter.js"></script>
   <script src="app/bower_components/firebase/firebase.js"></script>
-  <script type="app/text/javascript">
-    
-  var config = {
-    apiKey: "AIzaSyCmlJBUkTbaVpaT0VHT82gjFGF6uywR3W0",
-    authDomain: "mycontacts-5542e.firebaseapp.com",
-    databaseURL: "https://mycontacts-5542e.firebaseio.com",
-    storageBucket: "mycontacts-5542e.appspot.com",
-    messagingSenderId: "933141649619"
-  };
-  var fb = firebase.initializeApp(config);
-  </script>
+ 
   <script src="app/contacts/contacts.js"></script>
   </body>
 </html>
