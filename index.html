@@ -14,6 +14,18 @@
   <link rel="stylesheet" href="app/bower_components/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="app/app.css">
   <script>alert('a')</script>
+  <script src="app/bower_components/firebase/firebase.js"></script>
+  <script type="app/text/javascript">
+    
+    var config = {
+      apiKey: "AIzaSyCmlJBUkTbaVpaT0VHT82gjFGF6uywR3W0",
+      authDomain: "mycontacts-5542e.firebaseapp.com",
+      databaseURL: "https://mycontacts-5542e.firebaseio.com",
+      storageBucket: "mycontacts-5542e.appspot.com",
+      messagingSenderId: "933141649619"
+     };
+    var fb =  firebase.initializeApp(config);
+  </script>
   <script src="app/bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body>
@@ -50,18 +62,7 @@
 
 
   <script src="app/bower_components/jquery/dist/jquery.js"></script>
-  <script src="app/bower_components/firebase/firebase.js"></script>
-  <script type="app/text/javascript">
-    
-    var config = {
-      apiKey: "AIzaSyCmlJBUkTbaVpaT0VHT82gjFGF6uywR3W0",
-      authDomain: "mycontacts-5542e.firebaseapp.com",
-      databaseURL: "https://mycontacts-5542e.firebaseio.com",
-      storageBucket: "mycontacts-5542e.appspot.com",
-      messagingSenderId: "933141649619"
-     };
-    var fb =  firebase.initializeApp(config);
-  </script>
+ 
   <script src="app/bower_components/angular/angular.js"></script>
   <script src="app/bower_components/angular-route/angular-route.js"></script>
   <script src="app/bower_components/angularfire/dist/angularfire.js"></script>
